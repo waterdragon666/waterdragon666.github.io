@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana;
+    background-image: url(/img/starrynight.jpg);
+    color: white;
+}
+
+#ali {
+    text-align: right;
+    margin-right: 30px;
+}
+
+#wrap {
+    width: 1060px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+}
+
+#content {
+    width: 800px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    background-color: bisque;
+    height: 1000px
+}
+
+#sidebar {
+    width: 300px;
+    float: right;
+    background-color: #6699cc;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0
+}
+
+#header {
+    width: 800px;
+    height: 400px;
+    background-image: url(/img/temple-neptune2.jpg)
+}
+
+#coty {
+    width: 800px;
+    background-color: darkcyan;
+    padding-bottom: 10px;
+}
+
+#doge {
+    width: 780px;
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: cadetblue;
+    border-radius: 15px
+}
+
+#birdy {
+    width: 780px;
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: #cccccc;
+    border-radius: 15px
+}
+
+#bugy {
+    width: 780px;
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: darkgray;
+    border-radius: 15px
+}
+
+.spidy {
+    height: 50px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dainiukas {
+    width: 760px;
+    margin: 10px;
+    background-color: #3399ff;
+    border-radius: 15px;
+}
+
+.postheader {
+    width: 740px;
+    margin: 10px;
+    display: block;
+    vertical-align: middle;
+    text-align: center
+}
+
+.postimg {
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px 20px 10px;
+    border-radius: 15px
+}
+
+.postcontent {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px
+}
+
+.postwrap {
+    width: 740px;
+    margin: 10px;
+}
+
+.postwrap img {
+    float: left;
+    margin: 0 10 10 10;
+    border-radius: 15px
+}
+
+.shakaron {
+    font-family: 'Skranji', cursive;
+}
+
+.disc {
+    list-style: disc;
+    margin-left: 15px;
+    margin-bottom: 10px
+}
