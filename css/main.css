@@ -15,11 +15,12 @@ body {
 }
 
 #wrap {
-    width: 1060px;
-    background-color: azure;
+    width: 800px;
+    background-color: #0f6b34;
     margin-left: auto;
     margin-right: auto;
-    position: relative
+    position: relative;
+    margin-top: 50px;
 }
 
 #content {
@@ -27,11 +28,14 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     float: left;
-    background-color: bisque;
-    height: 1000px
+    background-color: #336666;
 }
-
-#sidebar {
+#header {
+    width: 800px;
+    height: 400px;
+    background-image: url(/img/temple-neptune2.jpg)
+}
+//*#sidebar {
     width: 300px;
     float: right;
     background-color: #6699cc;
@@ -40,15 +44,12 @@ body {
     top: 0;
     right: 0
 }
+*//
 
-#header {
-    width: 800px;
-    height: 400px;
-    background-image: url(/img/temple-neptune2.jpg)
-}
 
 #coty {
     width: 800px;
+    height: 100%;
     background-color: darkcyan;
     padding-bottom: 10px;
 }
@@ -117,16 +118,18 @@ body {
 }
 
 .postwrap {
+    clear: both;
     width: 740px;
     margin: 10px;
 }
 
 .postwrap img {
     float: left;
-    margin: 0 10 10 10;
-    border-radius: 15px
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
 }
-
 .shakaron {
     font-family: 'Skranji', cursive;
 }
@@ -137,4 +140,67 @@ body {
     margin-bottom: 10px
 }
 
+#navavbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color:#3399ff;
+    z-index: 1;
+    border-bottom: solid black;
+
+}
+//* Dropdown *//
+#metropolis {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+# metropolis li {
+    float: left;
+}
+
+#metropolis li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#metropolis li a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+#metropolis li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ccc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+//* Dropdown end *//
 
