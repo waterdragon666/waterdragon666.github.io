@@ -204,3 +204,16 @@ body {
 }
 //* Dropdown end *//
 
+
+.snail {
+
+}
+
+#snail {
+    width: 780px;
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+    border-radius: 15px;
+
+}
